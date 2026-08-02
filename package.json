@@ -1,0 +1,37 @@
+{
+  "name": "lighthouse-md",
+  "version": "0.1.0",
+  "description": "Turn a Google PageSpeed Insights (Lighthouse) audit into a CLAUDE.md brief your coding agent can act on: every failing audit, ranked offenders, prescriptive fixes, and a do-not-regress list.",
+  "bin": {
+    "lighthouse-md": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --check bin/cli.js && node --check lib/pagespeed.js && node bin/cli.js --help"
+  },
+  "keywords": [
+    "lighthouse",
+    "pagespeed",
+    "core-web-vitals",
+    "claude-code",
+    "claude-md",
+    "web-performance",
+    "ai-agents",
+    "seo"
+  ],
+  "author": "Baris Kocdur (https://lighthouse-md.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkocdur/lighthouse-md.git"
+  },
+  "homepage": "https://lighthouse-md.com"
+}

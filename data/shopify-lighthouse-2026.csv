@@ -1,0 +1,21 @@
+audit_id,audit_title,pct_stores_failing,fix_guide
+network-dependency-tree-insight,"Network dependency tree",93.7,
+first-contentful-paint,"First Contentful Paint",91.4,https://lighthouse-md.com/audits/first-contentful-paint
+cache-insight,"Use efficient cache lifetimes",91.4,
+largest-contentful-paint,"Largest Contentful Paint",91.1,https://lighthouse-md.com/audits/largest-contentful-paint
+render-blocking-insight,"Render-blocking requests",90.7,
+errors-in-console,"errors-in-console",90.3,
+interactive,"Time to Interactive",89.6,
+image-delivery-insight,"Improve image delivery",88.8,
+unused-javascript,"Reduce unused JavaScript",85.5,https://lighthouse-md.com/audits/reduce-unused-javascript
+speed-index,"Speed Index",84,
+unused-css-rules,"Reduce unused CSS",83.3,https://lighthouse-md.com/audits/reduce-unused-css
+total-byte-weight,"Avoid enormous network payloads",80.7,
+legacy-javascript-insight,"Legacy JavaScript",78.4,
+forced-reflow-insight,"Forced reflow",77.3,
+mainthread-work-breakdown,"mainthread-work-breakdown",75.8,
+max-potential-fid,"max-potential-fid",75.5,
+inspector-issues,"inspector-issues",72.1,
+total-blocking-time,"Total Blocking Time",69.1,https://lighthouse-md.com/audits/total-blocking-time
+color-contrast,"Contrast is sufficient",68.8,https://lighthouse-md.com/audits/color-contrast
+link-name,"link-name",67.3,
