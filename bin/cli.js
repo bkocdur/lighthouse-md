@@ -53,7 +53,8 @@ function parseArgs(argv) {
   const args = parseArgs(process.argv.slice(2));
 
   if (args.version) { console.log(pkg.version); return; }
-  if (args.help || !args.url) { console.log(HELP); process.exit(args.url ? 0 : 1); }
+  if (args.help) { console.log(HELP); process.exit(0); }
+  if (!args.url) { console.log(HELP); process.exit(1); }
 
   if (!/^https?:\/\//i.test(args.url)) args.url = 'https://' + args.url;
   if (!['mobile', 'desktop'].includes(args.strategy)) {
