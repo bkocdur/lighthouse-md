@@ -67,6 +67,7 @@ We ran this exact pipeline over **269 live Shopify and DTC storefronts** in July
 
 - **Web app:** [lighthouse-md.com](https://lighthouse-md.com) · paste a URL, copy the brief, or open Claude Code with one click
 - **Chrome extension:** [audit the active tab](https://chromewebstore.google.com/search/lighthouse-md) in one click
+- **Shopify app:** [Lighthouse-md on the App Store](https://apps.shopify.com/lighthouse-md) · the same audit inside your Shopify admin, with weekly tracking and Sidekick answers. 3 audits free.
 - **Audit library:** [lighthouse-md.com/audits](https://lighthouse-md.com/audits/) · every guide also served as raw `.md` for agents
 
 ## License
